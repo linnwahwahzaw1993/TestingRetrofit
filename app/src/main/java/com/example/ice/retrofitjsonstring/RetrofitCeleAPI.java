@@ -21,4 +21,7 @@ public interface RetrofitCeleAPI {
     @GET("/api/photos")
     public void getPhotos(Callback<List<Photo>> response);
 
+    @GET("/api/testing")
+    public void getInfo(Callback<String> response); //only for testing
+
 }
